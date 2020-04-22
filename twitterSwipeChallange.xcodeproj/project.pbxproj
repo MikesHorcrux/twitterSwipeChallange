@@ -13,6 +13,7 @@
 		270B45452450B7E900C6AB79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270B45442450B7E900C6AB79 /* Assets.xcassets */; };
 		270B45482450B7E900C6AB79 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270B45472450B7E900C6AB79 /* Preview Assets.xcassets */; };
 		270B454B2450B7E900C6AB79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270B45492450B7E900C6AB79 /* LaunchScreen.storyboard */; };
+		270B45552450E97000C6AB79 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B45542450E97000C6AB79 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		270B45472450B7E900C6AB79 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		270B454A2450B7E900C6AB79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		270B454C2450B7E900C6AB79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B45542450E97000C6AB79 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				270B453E2450B7E800C6AB79 /* AppDelegate.swift */,
 				270B45402450B7E800C6AB79 /* SceneDelegate.swift */,
+				270B45542450E97000C6AB79 /* Card.swift */,
 				270B45422450B7E800C6AB79 /* ContentView.swift */,
 				270B45442450B7E900C6AB79 /* Assets.xcassets */,
 				270B45492450B7E900C6AB79 /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 				270B453F2450B7E800C6AB79 /* AppDelegate.swift in Sources */,
 				270B45412450B7E800C6AB79 /* SceneDelegate.swift in Sources */,
 				270B45432450B7E800C6AB79 /* ContentView.swift in Sources */,
+				270B45552450E97000C6AB79 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
