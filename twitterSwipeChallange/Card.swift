@@ -9,16 +9,18 @@
 import SwiftUI
 
 struct Card: View {
+    @State var img: String
+    @State var name: String
     var body: some View {
         ZStack(alignment: .leading){
         RoundedRectangle(cornerRadius: 10)
-        Image("cat2")
+            Image(img)
             .resizable()
             .cornerRadius(10.0)
             
         VStack{
             Spacer()
-            Text("Mr Fluffers")
+            Text(name)
                 .bold()
                 .font(.title)
                 .foregroundColor(.white)
@@ -34,6 +36,6 @@ struct Card: View {
 
 struct Card_Previews: PreviewProvider {
     static var previews: some View {
-        Card()
+        Card(img: "cat2", name: "Mr Fluffers")
     }
 }
